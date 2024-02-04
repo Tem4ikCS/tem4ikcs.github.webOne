@@ -1,0 +1,20 @@
+.videotext{
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videotext video{
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  z-index: 1;
+}
+
+.text{
+  color:aliceblue;
+  z-index: 2;
+}

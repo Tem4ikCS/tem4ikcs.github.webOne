@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body{
+  font-family: Michroma, serif;
+  background: linear-gradient(90deg, #500085 0%, #000000 85%);
+}
+
+.nav-link{
+  color:aliceblue;
+}
+.nav-link:hover{
+  color:rgb(197, 197, 197);
+}
+
+.navbar-nav .nav-link.active{
+  color:aliceblue;
+}
+.navbar-nav .nav-link.active:hover{
+  color:rgb(197, 197, 197);
+}
+
+.navbar-brand>img{
+  width: 35px;
+}
+
+.nav-item img{
+  width: 35px;
+}
+
+.navbar-toggler{
+  background-color: rgb(80, 80, 80);
+}
+
+.card{
+  box-shadow: 5px 5px 10px 1px #000000;
+}
+
+.sidebar{
+  color: #bd5bff;
+  background: linear-gradient(270deg, #500085 0%, #000000 85%);
+}
+
+.btn-outline-primary{
+  background: linear-gradient(90deg, #500085 0%, #000000 85%); ;
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.help a{
+  text-decoration: none;
+  color: #00a4e6;
+}
+
+.help img{
+  width: 40px;
+}
+
+.slidetext{
+  color: #bd5bff;
+  margin: auto auto;
+}
+
+.carousel-inner{
+  background-color: #000000;
+  box-shadow: 5px 5px 10px 1px #000000;
+}
+
+.carousel-control-next-icon {
+  background-image:none;
+}
+.carousel-control-prev-icon {
+  background-image: none;
+}
+
+.call-anim{
+  animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+.foot{
+  background-color: rgb(97, 97, 97);
+}
+
+.foot .row p{
+  color: #000000;
+}
+
+.rights{
+  margin: auto auto;
+}
+
+.social-network{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img{
+  width: 35px;
+}
+
+@media(max-width: 755px){
+  .carousel-indicators{
+    display: none;
+  }
+
+}
+
+
+
